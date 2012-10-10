@@ -1,20 +1,20 @@
 villa-maison-rouge.local
 
-cd ~/Github/gko_demos/gko_demo_com
+cd ~/Github/gko_demo_com
 tail -f log/development.log
 
-cd ~/Github/gko_demos/gko_demo_com
+cd ~/Github/gko_demo_com
 bundle install
 rails s
 
-cd ~/Github/gko_demos/gko_demo_com
+cd ~/Github/gko_demo_com
 rails s
-cd ~/Github/gko_demos/gko_demo_com
+cd ~/Github/gko_demo_com
 RAILS_ENV=production bundle exec rake assets:precompile
 RAILS_ENV=production bundle exec rake assets:themes:precompile 
 bundle exec rake assets:precompile RAILS_ENV=development
 bundle exec rake assets:precompile
-cd ~/Github/gko_demos/gko_demo_com
+cd ~/Github/gko_demo_com
 bundle exec rake railties:install:migrations
 bundle exec rake db:bootstrap
 
