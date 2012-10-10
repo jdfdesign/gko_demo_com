@@ -296,6 +296,9 @@ body {
 /*-----------------------------------------
  FOOTER
 ----------------------------------------- */
+footer {
+background-color: transparent;
+}
 #footer {
 	padding: $baseLineHeight;
 }
@@ -391,7 +394,7 @@ body {
 		left: 36px;
 		top: 80px;
 		z-index: 10;
-		width: $leftbarWidth;
+		width: $leftbarWidth - 40;
 		letter-spacing: 4px;
 		text-align: left;
 		text-transform: uppercase;
