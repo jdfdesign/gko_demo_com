@@ -1,0 +1,19 @@
+<% @body_id = "inquiry" %>
+
+<div class="container-fluid heading">
+	<div class='row-fluid'>
+  		<div class='span12'>
+    	<%= render_page_title(resource.title) %>
+		</div>
+  	</div>
+</div>
+<div class="container-fluid">
+	<div class='row-fluid'>
+  		<div class='span6 html_text_wrapper'>
+			<%= render_html_text(resource.body) %>
+  		</div>
+		<div class='span6 inquiry_form_wrapper'>
+    		<%= render("inquiries/form") %>
+  		</div>
+	</div>
+</div>

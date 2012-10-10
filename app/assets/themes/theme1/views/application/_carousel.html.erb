@@ -1,0 +1,16 @@
+<div class='jcarousel-container'>
+	<div class="jcarousel-prev" href="#">&#8592;</div>
+	<div class="jcarousel-next" href="#">&#8594;</div>
+	<div class='jcarousel-clip'>
+		<ul class='jcarousel'>
+			<% items.each do |item| %>
+				<li>
+					<%= link_to(url_for([item.section, item])) do %>
+						<%= image_fu(item.thumbnail, site.preferred_image_grid_size) %>
+						<h5><%= item.title %></h5>
+					<% end %>
+				</li>
+			<% end %>
+		</ul>
+	</div>
+</div>

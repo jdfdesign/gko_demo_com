@@ -1,0 +1,30 @@
+<%
+has_stickers = @stickers.try(:any?)
+has_categories = @categories.try(:any?)
+%>
+<div class="container-fluid heading">
+	<div class="row-fluid">
+		<div class="span12">
+			<h1><%= page_title(resource.title) %></h1>
+			<h2 id="heading-sub">We like to believe that our work speaks for itself.</h2>
+		</div>
+	</div>
+	<%= render_next_previous %>
+</div>
+<div class="container-fluid">
+	<div class="row-fluid">
+		<div class="span8">
+		<% if @images.try(:any?) %>
+		<% @images.each do |img| %>
+		   <%= image_fu(img, "644x") %>
+		<% end %>
+		<% end %>
+		</div>
+		<div class="span4 sidebar">
+			<%= render_html_text(resource.body) if resource.body.present? %>
+			<%= link_to("Visiter le site Internet".html_safe, resource.website, :target => "_blank", :class => "gallery-link") unless resource.website.blank? %>
+			<%= render_resource_categories %>
+			<%= render_resource_stickers %>
+		</div>
+	</div>
+</div>
