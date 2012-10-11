@@ -8,7 +8,7 @@ group :assets do
  gem 'uglifier', '>= 1.0.3'
 end
 prod_location = 'git@github.com:jdfdesign/gko_cms3.git'
-prod_version = "= 0.4.17"
+prod_version = "= 0.4.18"
 group :production do
 gem "gko_core", prod_version, :git => prod_location
 gem "gko_auth", prod_version, :git => prod_location
@@ -33,7 +33,7 @@ end
 #	gem "gko_blog", :path => File.expand_path('~/Github/gko_cms3/gko_blog', __FILE__)
 #	gem "gko_portfolio", :path => File.expand_path('~/Github/gko_cms3/gko_portfolio', __FILE__)
 #	gem "gko_categories", :path => File.expand_path('~/Github/gko_cms3/gko_categories', __FILE__)
-#	gem "gko_stickers", :path => File.expand_path('~/Github/gko_cms3/gko_stickers', __FILE__)
+##	gem "gko_stickers", :path => File.expand_path('~/Github/gko_cms3/gko_stickers', __FILE__)
 #	gem "gko_calendar", :path => File.expand_path('~/Github/gko_cms3/gko_calendar', __FILE__)
 #	gem "gko_albums", :path => File.expand_path('~/Github/gko_cms3/gko_albums', __FILE__)
 #	gem "gko_newsletters", :path => File.expand_path('~/Github/gko_cms3/gko_newsletters', __FILE__)

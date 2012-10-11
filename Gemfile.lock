@@ -1,20 +1,20 @@
 GIT
   remote: git@github.com:jdfdesign/gko_cms3.git
-  revision: 216a7872ad3ce59496b81b034fb4b95c1a40c97f
+  revision: e59d72055229e7817a4c8bf9354d862f552a2af9
   specs:
-    gko_albums (0.4.17)
-    gko_auth (0.4.17)
+    gko_albums (0.4.18)
+    gko_auth (0.4.18)
       cancan (= 1.6.8)
       devise (= 2.1.2)
-    gko_blog (0.4.17)
-      gko_categories (= 0.4.17)
-      gko_core (= 0.4.17)
-      gko_stickers (= 0.4.17)
-    gko_calendar (0.4.17)
+    gko_blog (0.4.18)
+      gko_categories (= 0.4.18)
+      gko_core (= 0.4.18)
+      gko_stickers (= 0.4.18)
+    gko_calendar (0.4.18)
       gko_categories
       gko_core
-    gko_categories (0.4.17)
-    gko_core (0.4.17)
+    gko_categories (0.4.18)
+    gko_core (0.4.18)
       RedCloth (= 4.2.9)
       activesupport-slices (= 0.0.2)
       acts_as_indexed (~> 0.7.7)
@@ -53,17 +53,17 @@ GIT
       uglifier (>= 1.0.3)
       uuid (= 2.3.5)
       will_paginate (~> 3.0.2)
-    gko_documents (0.4.17)
+    gko_documents (0.4.18)
       dragonfly (~> 0.9.8)
       rack-cache (>= 0.5.3)
-    gko_images (0.4.17)
-    gko_inquiries (0.4.17)
+    gko_images (0.4.18)
+    gko_inquiries (0.4.18)
       filters_spam (~> 0.2)
-    gko_newsletters (0.4.17)
+    gko_newsletters (0.4.18)
       createsend (~> 1.0.4)
-    gko_portfolio (0.4.17)
-    gko_stickers (0.4.17)
-    gko_themes (0.4.17)
+    gko_portfolio (0.4.18)
+    gko_stickers (0.4.18)
+    gko_themes (0.4.18)
       less-rails-bootstrap
       rubyzip (= 0.9.6.1)
 
@@ -192,7 +192,7 @@ GEM
       less (~> 2.2.0)
     less-rails-bootstrap (2.1.1)
       less-rails (~> 2.2.0)
-    letter_opener (0.1.0)
+    letter_opener (1.0.0)
       launchy (>= 2.0.4)
     macaddr (1.6.1)
       systemu (~> 2.5.0)
@@ -290,19 +290,19 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 3.2.2)
-  gko_albums (= 0.4.17)!
-  gko_auth (= 0.4.17)!
-  gko_blog (= 0.4.17)!
-  gko_calendar (= 0.4.17)!
-  gko_categories (= 0.4.17)!
-  gko_core (= 0.4.17)!
-  gko_documents (= 0.4.17)!
-  gko_images (= 0.4.17)!
-  gko_inquiries (= 0.4.17)!
-  gko_newsletters (= 0.4.17)!
-  gko_portfolio (= 0.4.17)!
-  gko_stickers (= 0.4.17)!
-  gko_themes (= 0.4.17)!
+  gko_albums (= 0.4.18)!
+  gko_auth (= 0.4.18)!
+  gko_blog (= 0.4.18)!
+  gko_calendar (= 0.4.18)!
+  gko_categories (= 0.4.18)!
+  gko_core (= 0.4.18)!
+  gko_documents (= 0.4.18)!
+  gko_images (= 0.4.18)!
+  gko_inquiries (= 0.4.18)!
+  gko_newsletters (= 0.4.18)!
+  gko_portfolio (= 0.4.18)!
+  gko_stickers (= 0.4.18)!
+  gko_themes (= 0.4.18)!
   iconv
   sass-rails (~> 3.2.5)
   uglifier (>= 1.0.3)
